@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-hollow" rel="stylesheet">
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="assets/CSS/global.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="content">
+    <h1>Kanto Pokedex</h1>
+    <p>by: <a href="https://github.com/arthurgmv" target="_blank">Arthurgmv</a></p>
+    <br><br>
+    <!-- Música -->
+    <div class="audio">
+        <audio id="myAudio" controls>
+            <source src="assets/songs/Pokémon%20Theme%20Song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!-- lista -->
+    <ol>
+
+
+        <!-- 001 -->
+        <li>
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" alt="Bulbasaur"></a>
+            <div class="pokemon-info">
+                <span class="pokemon-name">Bulbasaur</span>
+                <span class="type"><p>Grass Poison</p></span>
+                <span class="pokenumber">001</span>
+            </div>
+        </li>
+
+
+        <!-- 002 -->
+        <li>
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif" alt="Ivysaur"></a>
+            <div class="pokemon-info">
+                <span class="pokemon-name">Ivysaur</span>
+                <span class="type"><p>Grass Poison</p></span>
+                <span class="pokenumber">002</span>
+            </div>
+        </li>
+
+
+        <!-- 003 -->
+        <li>
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur-f.gif" alt="Venusaur"></a>
+            <div class="pokemon-info">
+                <span class="pokemon-name">Venusaur</span>
+                <span class="type"><p>Grass Poison</p></span>
+                <span class="pokenumber">003</span>
+            </div>
+        </li>
+
+
+        <!-- 004 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif" alt="Charmander"></a>
+            <div class="pokemon-info">
+                <span class="pokemon-name">Charmander</span>
+                <span class="type"><p>Fire</p></span>
+                <span class="pokenumber">004</span>
+            </div>
+        </li>
+
+
+        <!-- 005 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/charmeleon.gif" alt="Charmeleon"></a>
+            <div class="pokemon-info">
+                <span class="pokemon-name">Charmeleon</span>
+                <span class="type"><p>Fire</p></span>
+                <span class="pokenumber">005</span>
+            </div>
+        </li>
+
+
+        <!-- 006 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif" alt="Charizard"></a>
+            <div class="pokemon-info">
+                <span class="pokemon-name">Charizard</span>
+                <span class="type"><p>Fire</p></span>
+                <span class="pokenumber">006</span>
+            </div>
+        </li>
+        <!-- 007 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/shiny/squirtle.gif" alt="Squirtle">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Squirtle</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">007</span>
+            </div>
+        </li>
+
+        <!-- 008 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/wartortle.gif" alt="Wartortle">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Wartortle</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">008</span>
+            </div>
+        </li>
+
+        <!-- 009 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/blastoise.gif" alt="Blastoise">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Blastoise</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">009</span>
+            </div>
+        </li>
+
+
+        <!-- 010 -->
+        <li class="bug">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/caterpie.gif" alt="Caterpie">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Caterpie</span>
+                <span class="type"><p>Bug</p></span>
+                <span class="pokenumber">010</span>
+            </div>
+        </li>
+
+        <!-- 011 -->
+        <li class="bug">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/metapod.gif" alt="Metapod">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Metapod</span>
+                <span class="type"><p>Bug</p></span>
+                <span class="pokenumber">011</span>
+            </div>
+        </li>
+
+        <!-- 012 -->
+        <li class="bug">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/butterfree-f.gif" alt="Butterfree">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Butterfree</span>
+                <span class="type"><p>Bug</p></span>
+                <span class="pokenumber">012</span>
+            </div>
+        </li>
+
+        <!-- 013 -->
+        <li class="bug">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/weedle.gif" alt="Weedle">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Weedle</span>
+                <span class="type"><p>Bug Poison</p></span>
+                <span class="pokenumber">013</span>
+            </div>
+        </li>
+
+        <!-- 014 -->
+        <li class="bug">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/kakuna.gif" alt="Kakuna">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Kakuna</span>
+                <span class="type"><p>Bug Poison</p></span>
+                <span class="pokenumber">014</span>
+            </div>
+        </li>
+
+        <!-- 015 -->
+        <li class="bug">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/beedrill.gif" alt="Beedrill">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Beedrill</span>
+                <span class="type"><p>Bug Poison</p></span>
+                <span class="pokenumber">015</span>
+            </div>
+        </li>
+
+        <!-- 016 -->
+        <li class="flying">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/pidgey.gif" alt="Pidgey">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Pidgey</span>
+                <span class="type"><p>Normal Flying</p></span>
+                <span class="pokenumber">016</span>
+            </div>
+        </li>
+
+        <!-- 017 -->
+        <li class="flying">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeotto.gif" alt="Pidgeotto">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Pidgeotto</span>
+                <span class="type"><p>Normal Flying</p></span>
+                <span class="pokenumber">017</span>
+            </div>
+        </li>
+
+        <!-- 018 -->
+        <li class="flying">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeot.gif" alt="Pidgeot">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Pidgeot</span>
+                <span class="type"><p>Normal Flying</p></span>
+                <span class="pokenumber">018</span>
+            </div>
+        </li>
+
+        <!-- 019 -->
+        <li class="flying">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/rattata-f.gif" alt="Rattata">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Rattata</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">019</span>
+            </div>
+        </li>
+
+        <!-- 020 -->
+        <li class="flying">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/raticate-f.gif" alt="Raticate">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Raticate</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">020</span>
+            </div>
+        </li>
+
+        <!-- 021 -->
+        <li class="flying">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/spearow.gif" alt="Spearow">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Spearow</span>
+                <span class="type"><p>Normal Flying</p></span>
+                <span class="pokenumber">021</span>
+            </div>
+        </li>
+
+        <!-- 022 -->
+        <li class="flying">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/fearow.gif" alt="Fearow">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Fearow</span>
+                <span class="type"><p>Normal Flying</p></span>
+                <span class="pokenumber">022</span>
+            </div>
+        </li>
+
+        <!-- 023 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/ekans.gif" alt="Ekans">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Ekans</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">023</span>
+            </div>
+        </li>
+
+        <!-- 024 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/arbok.gif" alt="Arbok">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Arbok</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">024</span>
+            </div>
+        </li>
+
+        <!-- 025 -->
+        <li class="electric">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/pikachu-f.gif" alt="Pikachu">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Pikachu</span>
+                <span class="type"><p>Electric</p></span>
+                <span class="pokenumber">025</span>
+            </div>
+        </li>
+
+        <!-- 026 -->
+        <li class="electric">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/raichu-f.gif" alt="Raichu">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Raichu</span>
+                <span class="type"><p>Electric</p></span>
+                <span class="pokenumber">026</span>
+            </div>
+        </li>
+
+        <!-- 027 -->
+        <li class="ground">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/sandshrew.gif" alt="Sandshrew">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Sandshrew</span>
+                <span class="type"><p>Ground</p></span>
+                <span class="pokenumber">027</span>
+            </div>
+        </li>
+
+        <!-- 028 -->
+        <li class="ground">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/sandslash.gif" alt="Sandslash">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Sandshrew</span>
+                <span class="type"><p>Ground</p></span>
+                <span class="pokenumber">028</span>
+            </div>
+        </li>
+
+        <!-- 029 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-f.gif" alt="Nidoran♀">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Nidoran♀</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">029</span>
+            </div>
+        </li>
+
+        <!-- 030 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/nidorina.gif" alt="Nidorina">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Nidorina</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">030</span>
+            </div>
+        </li>
+
+        <!-- 031 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/nidoqueen.gif" alt="Nidoqueen">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Nidoqueen</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">031</span>
+            </div>
+        </li>
+
+        <!-- 032 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-m.gif" alt="Nidoran♂">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Nidoran♂</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">032</span>
+            </div>
+        </li>
+
+        <!-- 033 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/nidorino.gif" alt="Nidorino">
+            <div class="pokemon-info">
+                <span class="pokemon-name"Nidorino</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">033</span>
+            </div>
+        </li>
+
+        <!-- 034 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/nidoking.gif" alt="Nidoking">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Nidoking</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">034</span>
+            </div>
+        </li>
+
+        <!-- 035 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/clefairy.gif" alt="Clefairy">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Clefairy</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">035</span>
+            </div>
+        </li>
+
+        <!-- 036 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/clefable.gif" alt="Clefable">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Clefable</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">036</span>
+            </div>
+        </li>
+
+        <!-- 037 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/vulpix.gif" alt="Vulpix">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Vulpix</span>
+                <span class="type"><p>Fire</p></span>
+                <span class="pokenumber">037</span>
+            </div>
+        </li>
+
+        <!-- 038 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/ninetales.gif" alt="Ninetales">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Ninetales</span>
+                <span class="type"><p>Fire</p></span>
+                <span class="pokenumber">038</span>
+            </div>
+        </li>
+
+        <!-- 039 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/jigglypuff.gif" alt="Jigglypuff">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Jigglypuff</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">039</span>
+            </div>
+        </li>
+
+        <!-- 040 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/wigglytuff.gif" alt="Wigglytuff">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Wigglytuff</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">040</span>
+            </div>
+        </li>
+
+        <!-- 041 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/zubat-f.gif" alt="Zubat">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Zubat</span>
+                <span class="type"><p>Flying Poison</p></span>
+                <span class="pokenumber">041</span>
+            </div>
+        </li>
+
+        <!-- 042 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/golbat-f.gif" alt="Golbat">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Golbat</span>
+                <span class="type"><p>Flying Poison</p></span>
+                <span class="pokenumber">042</span>
+            </div>
+        </li>
+
+        <!-- 043-->
+        <li class="">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/oddish.gif" alt="Oddish">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Oddish</span>
+                <span class="type"><p>Grass Poison</p></span>
+                <span class="pokenumber">043</span>
+            </div>
+        </li>
+
+        <!-- 044 -->
+        <li class="">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/gloom-f.gif" alt="Gloom">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Gloom</span>
+                <span class="type"><p>Grass Poison</p></span>
+                <span class="pokenumber">044</span>
+            </div>
+        </li>
+
+        <!-- 045 -->
+        <li class="">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/vileplume-f.gif" alt="Vileplume">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Gloom</span>
+                <span class="type"><p>Grass Poison</p></span>
+                <span class="pokenumber">045</span>
+            </div>
+        </li>
+
+        <!-- 046 -->
+        <li class="bug">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/paras.gif" alt="Paras">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Paras</span>
+                <span class="type"><p>Bug <br>Grass</p></span>
+                <span class="pokenumber">046</span>
+            </div>
+        </li>
+
+        <!-- 047 -->
+        <li class="bug">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/parasect.gif" alt="Parasect">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Parasect</span>
+                <span class="type"><p>Bug <br>Grass</p></span>
+                <span class="pokenumber">047</span>
+            </div>
+        </li>
+
+        <!-- 048 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/venonat.gif" alt="Venonat">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Venonat</span>
+                <span class="type"><p>Bug <br>Poison</p></span>
+                <span class="pokenumber">048</span>
+            </div>
+        </li>
+
+        <!-- 049 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/venomoth.gif" alt="Venomoth">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Venomoth</span>
+                <span class="type"><p>Bug <br>Poison</p></span>
+                <span class="pokenumber">049</span>
+            </div>
+        </li>
+
+        <!-- 050 -->
+        <li class="ground">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/diglett.gif" alt="Diglett">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Diglett</span>
+                <span class="type"><p>Ground</p></span>
+                <span class="pokenumber">050</span>
+            </div>
+        </li>
+
+        <!-- 051 -->
+        <li class="ground">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/dugtrio.gif" alt="Dugtrio">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Dugtrio</span>
+                <span class="type"><p>Ground</p></span>
+                <span class="pokenumber">051</span>
+            </div>
+        </li>
+
+        <!-- 052 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/meowth.gif" alt="Meowth">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Meowth</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">052</span>
+            </div>
+        </li>
+
+        <!-- 053 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/persian.gif" alt="Persian">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Persian</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">053</span>
+            </div>
+        </li>
+
+        <!-- 054 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/psyduck.gif" alt="Psyduck">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Psyduck</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">054</span>
+            </div>
+        </li>
+
+        <!-- 055 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/golduck.gif" alt="Golduck">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Golduck</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">055</span>
+            </div>
+        </li>
+
+        <!-- 056 -->
+        <li class="fighting">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/mankey.gif" alt="Mankey">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Mankey</span>
+                <span class="type"><p>Fighting</p></span>
+                <span class="pokenumber">056</span>
+            </div>
+        </li>
+
+        <!-- 057 -->
+        <li class="fighting">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/primeape.gif" alt="Primeape">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Primeape</span>
+                <span class="type"><p>Fighting</p></span>
+                <span class="pokenumber">057</span>
+            </div>
+        </li>
+
+        <!-- 058 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/growlithe.gif" alt="Growlithe">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Growlithe</span>
+                <span class="type"><p>Fire</p></span>
+                <span class="pokenumber">058</span>
+            </div>
+        </li>
+
+        <!-- 059 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif" alt="Arcanine">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Arcanine</span>
+                <span class="type"><p>Fire</p></span>
+                <span class="pokenumber">059</span>
+            </div>
+        </li>
+
+        <!-- 060 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/poliwag.gif" alt="Poliwag">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Poliwag</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">060</span>
+            </div>
+        </li>
+
+        <!-- 061 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/poliwhirl.gif" alt="Poliwhirl">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Poliwhirl</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">061</span>
+            </div>
+        </li>
+
+        <!-- 062 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif" alt="Poliwrath">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Poliwrath</span>
+                <span class="type"><p>Water Fighting</p></span>
+                <span class="pokenumber">062</span>
+            </div>
+        </li>
+
+        <!-- 063 -->
+        <li class="psy">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/abra.gif" alt="Abra">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Abra</span>
+                <span class="type"><p>Psychic</p></span>
+                <span class="pokenumber">063</span>
+            </div>
+        </li>
+
+        <!-- 064 -->
+        <li class="psy">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/kadabra-f.gif" alt="Kadabra">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Kadabra</span>
+                <span class="type"><p>Psychic</p></span>
+                <span class="pokenumber">064</span>
+            </div>
+        </li>
+
+        <!-- 065 -->
+        <li class="psy">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/alakazam-f.gif" alt="Alakazam">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Alakazam</span>
+                <span class="type"><p>Psychic</p></span>
+                <span class="pokenumber">065</span>
+            </div>
+        </li>
+
+
+        <!-- 066 -->
+        <li class="fighting">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/machop.gif" alt="Machop">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Machop</span>
+                <span class="type"><p>Fighting</p></span>
+                <span class="pokenumber">066</span>
+            </div>
+        </li>
+
+        <!-- 067 -->
+        <li class="fighting">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/machoke.gif" alt="Machoke">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Machoke</span>
+                <span class="type"><p>Fighting</p></span>
+                <span class="pokenumber">067</span>
+            </div>
+        </li>
+
+        <!-- 068 -->
+        <li class="fighting">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/machamp.gif" alt="Machamp">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Machamp</span>
+                <span class="type"><p>Fighting</p></span>
+                <span class="pokenumber">068</span>
+            </div>
+        </li>
+
+        <!-- 069 -->
+        <li class="grass">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/bellsprout.gif" alt="Bellsprout">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Bellsprout</span>
+                <span class="type"><p>Grass</p></span>
+                <span class="pokenumber">069</span>
+            </div>
+        </li>
+
+        <!-- 070 -->
+        <li class="grass">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/weepinbell.gif" alt="Weepinbell">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Weepinbell</span>
+                <span class="type"><p>Grass</p></span>
+                <span class="pokenumber">070</span>
+            </div>
+        </li>
+
+        <!-- 071 -->
+        <li class="grass">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/victreebel.gif" alt="Victreebel">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Victreebel</span>
+                <span class="type"><p>Grass</p></span>
+                <span class="pokenumber">071</span>
+            </div>
+        </li>
+
+        <!-- 072 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/tentacool.gif" alt="Tentacool">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Tentacool</span>
+                <span class="type"><p>Water Poison</p></span>
+                <span class="pokenumber">072</span>
+            </div>
+        </li>
+
+        <!-- 073 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif" alt="Tentacruel">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Tentacruel</span>
+                <span class="type"><p>Water Poison</p></span>
+                <span class="pokenumber">073</span>
+            </div>
+        </li>
+
+        <!-- 074 -->
+        <li class="rock">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/geodude.gif" alt="Geodude">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Geodude</span>
+                <span class="type"><p>Rock</p></span>
+                <span class="pokenumber">074</span>
+            </div>
+        </li>
+
+        <!-- 075 -->
+        <li class="rock">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/graveler.gif" alt="Graveler">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Graveler</span>
+                <span class="type"><p>Rock</p></span>
+                <span class="pokenumber">075</span>
+            </div>
+        </li>
+
+        <!-- 076 -->
+        <li class="rock">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/golem.gif" alt="Golem">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Golem</span>
+                <span class="type"><p>Rock Ground</p></span>
+                <span class="pokenumber">076</span>
+            </div>
+        </li>
+
+        <!-- 077 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/ponyta.gif" alt="Ponyta">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Ponyta</span>
+                <span class="type"><p>Fire</p></span>
+                <span class="pokenumber">077</span>
+            </div>
+        </li>
+
+        <!-- 078 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/rapidash.gif" alt="Rapidash">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Rapidash</span>
+                <span class="type"><p>Fire</p></span>
+                <span class="pokenumber">078</span>
+            </div>
+        </li>
+
+        <!-- 079 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/slowpoke.gif" alt="Slowpoke">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Slowpoke</span>
+                <span class="type"><p>Water Psychic</p></span>
+                <span class="pokenumber">079</span>
+            </div>
+        </li>
+
+        <!-- 080 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/slowbro.gif" alt="Slowbro">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Slowbro</span>
+                <span class="type"><p>Water Psychic</p></span>
+                <span class="pokenumber">080</span>
+            </div>
+        </li>
+
+        <!-- 081 -->
+        <li class="electric">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/magnemite.gif" alt="Magnemite">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Magnemite</span>
+                <span class="type"><p>Electric</p></span>
+                <span class="pokenumber">081</span>
+            </div>
+        </li>
+
+        <!-- 082 -->
+        <li class="electric">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/magneton.gif" alt="Magneton">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Magneton</span>
+                <span class="type"><p>Electric</p></span>
+                <span class="pokenumber">082</span>
+            </div>
+        </li>
+
+        <!-- 083 -->
+        <li class="flying">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/farfetchd.gif" alt="Farfetch'd">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Farfetch'd</span>
+                <span class="type"><p>Normal Flying</p></span>
+                <span class="pokenumber">083</span>
+            </div>
+        </li>
+
+        <!-- 084 -->
+        <li class="flying">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/doduo-f.gif" alt="Doduo">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Dodou</span>
+                <span class="type"><p>Normal Flying</p></span>
+                <span class="pokenumber">084</span>
+            </div>
+        </li>
+
+        <!-- 085 -->
+        <li class="flying">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/dodrio-f.gif" alt="Dodrio">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Dodrio</span>
+                <span class="type"><p>Normal Flying</p></span>
+                <span class="pokenumber">085</span>
+            </div>
+        </li>
+
+        <!-- 086 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/seel.gif" alt="Seel">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Seel</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">086</span>
+            </div>
+        </li>
+
+        <!-- 087 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/dewgong.gif" alt="Dewgong">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Dewgong</span>
+                <span class="type"><p>Water<br>Ice</p></span>
+                <span class="pokenumber">087</span>
+            </div>
+        </li>
+
+        <!-- 088 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/grimer.gif" alt="Grimer">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Grimer</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">088</span>
+            </div>
+        </li>
+
+        <!-- 089 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/muk.gif" alt="Muk">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Muk</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">089</span>
+            </div>
+        </li>
+
+        <!-- 090 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/shellder.gif" alt="Shellder">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Shellder</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">090</span>
+            </div>
+        </li>
+
+        <!-- 091 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/cloyster.gif" alt="Cloyster">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Cloyster</span>
+                <span class="type"><p>Water<br>Ice</p></span>
+                <span class="pokenumber">091</span>
+            </div>
+        </li>
+
+        <!-- 092 -->
+        <li class="ghost">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/gastly.gif" alt="Gastly">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Gastly</span>
+                <span class="type"><p>Ghost</p></span>
+                <span class="pokenumber">092</span>
+            </div>
+        </li>
+
+        <!-- 093 -->
+        <li class="ghost">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/haunter.gif" alt="Haunter">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Haunter</span>
+                <span class="type"><p>Ghost</p></span>
+                <span class="pokenumber">093</span>
+            </div>
+        </li>
+
+        <!-- 094 -->
+        <li class="ghost">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif" alt="Gengar">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Gengar</span>
+                <span class="type"><p>Ghost</p></span>
+                <span class="pokenumber">094</span>
+            </div>
+        </li>
+
+        <!-- 095 -->
+        <li class="rock">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/onix.gif" alt="Onix">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Onix</span>
+                <span class="type"><p>Rock</p></span>
+                <span class="pokenumber">095</span>
+            </div>
+        </li>
+
+        <!-- 096 -->
+        <li class="psy">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/drowzee.gif" alt="Drowzee">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Drowzee</span>
+                <span class="type"><p>Psychic</p></span>
+                <span class="pokenumber">096</span>
+            </div>
+        </li>
+
+        <!-- 097 -->
+        <li class="psy">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/hypno-f.gif" alt="Hypno">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Hypno</span>
+                <span class="type"><p>Psychic</p></span>
+                <span class="pokenumber">097</span>
+            </div>
+        </li>
+
+        <!-- 098 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/krabby.gif" alt="Krabby">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Krabby</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">098</span>
+            </div>
+        </li>
+
+        <!-- 099 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/kingler.gif" alt="Kingler">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Kingler</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">099</span>
+            </div>
+        </li>
+
+        <!-- 100 -->
+        <li class="electric">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/voltorb.gif" alt="Voltorb">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Voltorb</span>
+                <span class="type"><p>Electric</p></span>
+                <span class="pokenumber">100</span>
+            </div>
+        </li>
+
+        <!-- 101 -->
+        <li class="electric">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/electrode.gif" alt="Electrode">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Electrode</span>
+                <span class="type"><p>Electric</p></span>
+                <span class="pokenumber">101</span>
+            </div>
+        </li>
+
+        <!-- 102 -->
+        <li class="psy">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/exeggcute.gif" alt="Exeggcute">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Exeggcute</span>
+                <span class="type"><p>Grass Psychic</p></span>
+                <span class="pokenumber">102</span>
+            </div>
+        </li>
+
+        <!-- 103 -->
+        <li class="psy">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/exeggutor.gif" alt="Exeggutor">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Exeggutor</span>
+                <span class="type"><p>Grass Psychic</p></span>
+                <span class="pokenumber">103</span>
+            </div>
+        </li>
+
+        <!-- 104 -->
+        <li class="ground">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/cubone.gif" alt="Cubone">
+            <div class="pokemon-info">
+                <span class="pokemon-name">Cubone</span>
+                <span class="type"><p>Ground</p></span>
+                <span class="pokenumber">104</span>
+            </div>
+        </li>
+
+        <!-- 105 -->
+        <li class="ground">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/marowak.gif" alt="Marowak">
+            <div class="pokemon-info">
+
+            <span class="pokemon-name">Marowak</span>
+            <span class="type"><p>Ground</p></span>
+            <span class="pokenumber">105</span>
+            </div>
+        </li>
+
+        <!-- 106 -->
+        <li class="fighting">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonlee.gif" alt="Hitmonlee">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Hitmonlee</span>
+                <span class="type"><p>Fighting</p></span>
+                <span class="pokenumber">106</span>
+            </div>
+        </li>
+
+        <!-- 107 -->
+        <li class="fighting">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonchan.gif" alt="Hitmonchan">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Hitmonchan</span>
+                <span class="type"><p>Fighting</p></span>
+                <span class="pokenumber">107</span>
+            </div>
+        </li>
+
+        <!-- 108 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/lickitung.gif" alt="Lickitung">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Lickitung</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">108</span>
+            </div>
+        </li>
+
+        <!-- 109 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/koffing.gif" alt="Koffing">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Koffing</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">109</span>
+            </div>
+        </li>
+
+        <!-- 110 -->
+        <li class="poison">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/weezing.gif" alt="Weezing">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Weezing</span>
+                <span class="type"><p>Poison</p></span>
+                <span class="pokenumber">110</span>
+            </div>
+        </li>
+
+        <!-- 111 -->
+        <li class="rock">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/rhyhorn-f.gif" alt="Rhyhorn">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Rhyhorn</span>
+                <span class="type"><p>Ground Rock</p></span>
+                <span class="pokenumber">111</span>
+            </div>
+        </li>
+
+        <!-- 112 -->
+        <li class="rock">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/rhydon-f.gif" alt="Rhydon">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Rhydon</span>
+                <span class="type"><p>Ground Rock</p></span>
+                <span class="pokenumber">112</span>
+            </div>
+        </li>
+
+        <!-- 113 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/chansey.gif" alt="Chansey">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Chansey</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">113</span>
+            </div>
+        </li>
+
+        <!-- 114 -->
+        <li class="grass">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/tangela.gif" alt="Tangela">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Tangela</span>
+                <span class="type"><p>Grass</p></span>
+                <span class="pokenumber">114</span>
+            </div>
+        </li>
+
+        <!-- 115 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/kangaskhan.gif" alt="Kangaskhan">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Kangaskhan</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">115</span>
+            </div>
+        </li>
+
+        <!-- 116 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/horsea.gif" alt="Horsea">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Horsea</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">116</span>
+            </div>
+        </li>
+
+        <!-- 117 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/seadra.gif" alt="Seadra">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Seadra</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">117</span>
+            </div>
+        </li>
+
+        <!-- 118 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/goldeen-f.gif" alt="Goldeen">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Goldeen</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">118</span>
+            </div>
+        </li>
+
+        <!-- 119 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/seaking-f.gif" alt="Seaking">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Goldeen</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">119</span>
+            </div>
+        </li>
+
+        <!-- 120 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/staryu.gif" alt="Staryu">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Staryu</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">120</span>
+            </div>
+        </li>
+
+        <!-- 121 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/starmie.gif" alt="Starmie">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Starmie</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">121</span>
+            </div>
+        </li>
+
+        <!-- 122 -->
+        <li class="psy">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/mr-mime.gif" alt="Mr. Mime">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Mr. Mime</span>
+                <span class="type"><p>Psychic</p></span>
+                <span class="pokenumber">122</span>
+            </div>
+        </li>
+
+        <!-- 123 -->
+        <li class="bug">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/scyther-f.gif" alt="Scyther">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Scyther</span>
+                <span class="type"><p>Bug Flying</p></span>
+                <span class="pokenumber">123</span>
+            </div>
+        </li>
+
+        <!-- 124 -->
+        <li class="psy">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/jynx.gif" alt="Jynx">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Jynx</span>
+                <span class="type"><p>Ice Psychic</p></span>
+                <span class="pokenumber">124</span>
+            </div>
+        </li>
+
+        <!-- 125 -->
+        <li class="electric">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/electabuzz.gif" alt="Electabuzz">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Electabuzz</span>
+                <span class="type"><p>Electric</p></span>
+                <span class="pokenumber">125</span>
+            </div>
+        </li>
+
+        <!-- 126 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/magmar.gif" alt="Magmar">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Magmar</span>
+                <span class="type"><p>Fire</p></span>
+                <span class="pokenumber">126</span>
+            </div>
+        </li>
+
+        <!-- 127 -->
+        <li class="bug">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/pinsir.gif" alt="Pinsir">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Pinsir</span>
+                <span class="type"><p>Bug</p></span>
+                <span class="pokenumber">127</span>
+            </div>
+        </li>
+
+        <!-- 128 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/tauros.gif" alt="Tauros">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Tauros</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">128</span>
+            </div>
+        </li>
+
+        <!-- 129 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/magikarp-f.gif" alt="Magikarp">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Magikarp</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">129</span>
+            </div>
+        </li>
+
+        <!-- 130 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif" alt="Gyarados">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Gyarados</span>
+                <span class="type"><p>Water Flying</p></span>
+                <span class="pokenumber">130</span>
+            </div>
+        </li>
+
+        <!-- 131 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/lapras.gif" alt="Lapras">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Lapras</span>
+                <span class="type"><p>Water Ice</p></span>
+                <span class="pokenumber">131</span>
+            </div>
+        </li>
+
+
+        <!-- 132 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/ditto.gif" alt="Ditto">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Dito</span>
+                <span class="type"><p>normal</p></span>
+                <span class="pokenumber">132</span>
+            </div>
+        </li>
+
+        <!-- 133 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/eevee.gif" alt="Eevee">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Eevee</span>
+                <span class="type"><p>normal</p></span>
+                <span class="pokenumber">133</span>
+            </div>
+        </li>
+
+        <!-- 134 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/vaporeon.gif" alt="Vaporeon">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Vaporeon</span>
+                <span class="type"><p>Water</p></span>
+                <span class="pokenumber">134</span>
+            </div>
+        </li>
+
+        <!-- 135 -->
+        <li class="electric">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/jolteon.gif" alt="Jolteon">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Jolteon</span>
+                <span class="type"><p>Electric</p></span>
+                <span class="pokenumber">135</span>
+            </div>
+        </li>
+
+        <!-- 136 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/flareon.gif" alt="Flareon">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Flareon</span>
+                <span class="type"><p>Fire</p></span>
+                <span class="pokenumber">136</span>
+            </div>
+        </li>
+
+        <!-- 137 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/porygon.gif" alt="Porygon">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Porygon</span>
+                <span class="type"><p>Virtual</p></span>
+                <span class="pokenumber">137</span>
+            </div>
+        </li>
+
+        <!-- 138 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/omanyte.gif" alt="Omanyte">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Omanyte</span>
+                <span class="type"><p>Rock Water</p></span>
+                <span class="pokenumber">138</span>
+            </div>
+        </li>
+
+        <!-- 139 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/omastar.gif" alt="Omastar">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Omastar</span>
+                <span class="type"><p>Rock Water</p></span>
+                <span class="pokenumber">139</span>
+            </div>
+        </li>
+
+        <!-- 140 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/kabuto.gif" alt="Kabuto">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Kabuto</span>
+                <span class="type"><p>Rock Water</p></span>
+                <span class="pokenumber">140</span>
+            </div>
+        </li>
+
+        <!-- 141 -->
+        <li class="water">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/kabutops.gif" alt="Kabutops">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Kabutops</span>
+                <span class="type"><p>Rock Water</p></span>
+                <span class="pokenumber">141</span>
+            </div>
+        </li>
+
+        <!-- 142 -->
+        <li class="flying">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/aerodactyl.gif" alt="Aerodactyl">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Aerodactyl</span>
+                <span class="type"><p>Rock Flyingr</p></span>
+                <span class="pokenumber">142</span>
+            </div>
+        </li>
+
+        <!-- 143 -->
+        <li class="normal">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/snorlax.gif" alt="Snorlax">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Aerodactyl</span>
+                <span class="type"><p>Normal</p></span>
+                <span class="pokenumber">143</span>
+            </div>
+        </li>
+
+        <!-- 144 -->
+        <li class="ice">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/articuno.gif" alt="Articuno">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Articuno</span>
+                <span class="type"><p>Ice<br>Flying</p></span>
+                <span class="pokenumber">144</span>
+            </div>
+        </li>
+
+        <!-- 145 -->
+        <li class="electric">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/zapdos.gif" alt="Zapdos">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Zapdos</span>
+                <span class="type"><p>Electric Flying</p></span>
+                <span class="pokenumber">145</span>
+            </div>
+        </li>
+
+        <!-- 146 -->
+        <li class="fire">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/moltres.gif" alt="Moltres">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Moltres</span>
+                <span class="type"><p>Fire Flying</p></span>
+                <span class="pokenumber">146</span>
+            </div>
+        </li>
+
+        <!-- 147 -->
+        <li class="dragon">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/dratini.gif" alt="Dratini">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Dratini</span>
+                <span class="type"><p>Dragon</p></span>
+                <span class="pokenumber">147</span>
+            </div>
+        </li>
+
+        <!-- 148 -->
+        <li class="dragon">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/dragonair.gif" alt="Dragonair">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Dragonair</span>
+                <span class="type"><p>Dragon</p></span>
+                <span class="pokenumber">148</span>
+            </div>
+        </li>
+
+        <!-- 149 -->
+        <li class="dragon">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/dragonite.gif" alt="Dragonite">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Dragonite</span>
+                <span class="type"><p>Dragon Flying</p></span>
+                <span class="pokenumber">149</span>
+            </div>
+        </li>
+
+        <!-- 150 -->
+        <li class="psy">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/mewtwo.gif" alt="Mewtwo">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Mewtwo</span>
+                <span class="type"><p>Psychic</p></span>
+                <span class="pokenumber">150</span>
+            </div>
+        </li>
+
+        <!-- 151 -->
+        <li class="psy">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/mew.gif" alt="Mew">
+            <div class="pokemon-info">
+
+                <span class="pokemon-name">Mew</span>
+                <span class="type"><p>Psychic</p></span>
+                <span class="pokenumber">151</span>
+            </div>
+        </li>
+
+    </ol>
+</div>
+
+
+<div class="col-md-6 custom-scrollbar"></div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+<script src="assets/JS/index.js"></script>
+
+<footer>
+<p><a href="https://www.linkedin.com/in/arthur-gabriel-de-menezes-viana-1223a6239/" target="_blank">Arthur Gabriel</a></p>
+<p>arthurgabrielmv@gmail.com</p>
+</footer>
+
+
+</body>
+</html>
