@@ -3,10 +3,10 @@
     box-sizing: border-box;
 }
 
-h1 {
+.titulo {
     font-family: 'Pokemon Hollow', sans-serif;
     color: navy;
-
+    font-size: 5rem;
 
 }
 
